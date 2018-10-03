@@ -1,0 +1,5 @@
+Select AC_CVERS From RSFACCAR..ALCIAS  Where AC_CCIA='0001'
+
+update  RSFACCAR..ALCIAS 
+set AC_CVERS  = '13.21'
+Where AC_CCIA in ('0008', '0001')

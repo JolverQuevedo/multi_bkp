@@ -1,0 +1,5 @@
+select * from RS_ALMOV_UBICACION0001 where CALMA like '%j%' order by CALMA
+select * from RS_ALMOV_UBICACION0002 where CALMA like '%j%' order by CALMA
+select * from RS_ALMOV_UBICACION0006 where CALMA like '%j%' order by CALMA
+select * from RS_ALMOV_UBICACION0008 where CALMA like '%j%' order by CALMA
+select * from RS_ALMOV_UBICACION0012 where CALMA like '%j%' order by CALMA

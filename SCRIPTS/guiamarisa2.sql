@@ -1,0 +1,1 @@
+insert into po_movi select * from guiamarisa

@@ -1,0 +1,1 @@
+select * from view_ofis where cli ='00014'

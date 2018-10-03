@@ -1,0 +1,139 @@
+#cssmenu{ height:37px; display:block; padding:0; margin: 0 auto;  border:1px solid; border-radius:5px; } 
+#cssmenu > ul {list-style:inside none; padding:0; margin:0;} 
+#cssmenu > ul > li {list-style:inside none; padding:0; margin:0; float:left; display:block; position:relative;} 
+#cssmenu > ul > li > a{ outline:none; display:block; position:relative; padding:12px 20px; font:bold 13px/100% Arial, Helvetica, sans-serif; text-align:center; text-decoration:none; text-shadow:1px 1px 0 rgba(0,0,0, 0.4); } 
+#cssmenu > ul > li:first-child > a{border-radius:5px 0 0 5px;} 
+#cssmenu > ul > li > a:after{ content:''; position:absolute; border-right:1px solid; top:-1px; bottom:-1px; right:-2px; z-index:99; } 
+#cssmenu ul li.has-sub:hover > a:after{top:0; bottom:0;} 
+#cssmenu > ul > li.has-sub > a:before{ content:''; position:absolute; top:18px; right:6px; border:5px solid transparent; border-top:5px solid #fff; } 
+#cssmenu > ul > li.has-sub:hover > a:before{top:19px;} 
+#cssmenu ul li.has-sub:hover > a{ background:#3f3f3f; border-color:#3f3f3f; padding-bottom:13px; padding-top:13px; top:-1px; z-index:999; } 
+#cssmenu ul li.has-sub:hover > ul, #cssmenu ul li.has-sub:hover > div{display:block;} 
+#cssmenu ul li.has-sub > a:hover{background:#3f3f3f; border-color:#3f3f3f;} 
+
+#cssmenu ul li.NO-has-sub:hover > a:after{top:0; bottom:0;} 
+/*   ESTA ES LA puta LINEA QUE COLOCA EL TRIANGULITO INDICANDO QUE HAY SUBMENU
+#cssmenu > ul > li.NO-has-sub > a:before{ content:''; position:absolute; top:18px; right:6px; border:5px solid transparent; border-top:5px solid #fff; } */
+
+#cssmenu > ul > li.NO-has-sub:hover > a:before{top:19px;} 
+#cssmenu ul li.NO-has-sub:hover > a{ background:#3f3f3f; border-color:#3f3f3f; padding-bottom:13px; padding-top:13px; top:-1px; z-index:999; } 
+#cssmenu ul li.NO-has-sub:hover > ul, #cssmenu ul li.NO-has-sub:hover > div{display:block;} 
+#cssmenu ul li.NO-has-sub > a:hover{background:#3f3f3f; border-color:#3f3f3f;} 
+
+
+
+
+#cssmenu ul li > ul, #cssmenu ul li > div{ display:none; width:auto; position:absolute; top:38px; padding:10px 0; background:#3f3f3f; border-radius:0 0 5px 5px; z-index:999; } 
+#cssmenu ul li > ul{width:200px;} 
+#cssmenu ul li > ul li{display:block; list-style:inside none; padding:0; margin:0; position:relative;} 
+#cssmenu ul li > ul li a{ outline:none; display:block; position:relative; margin:0; padding:8px 20px; 
+font:10pt Arial, Helvetica, sans-serif; color:#fff; text-decoration:none; text-shadow:1px 1px 0 rgba(0,0,0, 0.5); } 
+
+#cssmenu, #cssmenu > ul > li > ul > li a:hover{ background:#ff9812; background:-moz-linear-gradient(top, #ff9812 0%, #e17310 100%); 
+background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff9812), color-stop(100%,#e17310)); 
+background:-webkit-linear-gradient(top, #ff9812 0%,#e17310 100%);
+background:-o-linear-gradient(top, #ff9812 0%,#e17310 100%);
+background:-ms-linear-gradient(top, #ff9812 0%,#e17310 100%); 
+background:linear-gradient(top, #ff9812 0%,#e17310 100%); 
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff9812', endColorstr='#e17310',GradientType=0); } 
+#cssmenu{border-color:#b05a0d;} 
+#cssmenu > ul > li > a{border-right:1px solid #b05a0d; color:#fff;} 
+#cssmenu > ul > li > a:after{border-color:#ffa32b;} 
+#cssmenu > ul > li > a:hover{background:#e17310;} 
+.LOG_LABEL 	
+{   font: 80%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	color: #000;
+	font-weight:300;
+	background: #f68b21;
+	padding-right: 5px;
+
+}
+.INPUTS{
+	font: 80%/1.0 Verdana, Arial, Helvetica, sans-serif;
+	color: #000;
+    width: 88%;
+	background:#fff; 
+	}
+.container { width: 100%; border: 1px solid red; }
+.BAKES{
+	font: 80%/1.0 Verdana, Arial, Helvetica, sans-serif;
+	color: #000;
+	padding-top:1px;
+	padding-bottom:1px;
+	width:100%;
+	background:#E9D7AB;
+	}
+.data{
+	font: 80%/1.0 Verdana, Arial, Helvetica, sans-serif;
+	color: #000;
+	padding-top:1px;
+	padding-bottom:1px;
+	width:100%;
+	border:0px; 
+	}
+.data2{
+	font: 80%/1.0 Verdana, Arial, Helvetica, sans-serif; 	color: #000; 	
+	padding-top:1px; 	padding-bottom:1px; padding-right:3px; 	width:100%; 	border:0px; background-color:transparent;
+	}	
+.micro{
+	font: 60%/1.0 Verdana, Arial, Helvetica, sans-serif;
+	color: #000;
+	text-align:center;
+	border:0px; vertical-align:middle; 
+
+	}	
+.micro_white{
+font: 60%/1.0 Verdana, Arial, Helvetica, sans-serif;
+color: #fff;
+text-align:center;
+border:0px; 
+	}
+.estilotextarea4 {
+	scrollbar-3dlight-color: : #009900;
+	scrollbar-darkshadow-color : #999999;
+	scrollbar-highlight-color : #999999;
+	scrollbar-shadow-color : #3985AB;
+	scrollbar-arrow-color : #009900;
+	scrollbar-face-color : #f0f0f0;
+	scrollbar-track-color : #DDEBC6;
+	FONT-SIZE: 10px;
+    FONT-FAMILY: Arial;
+	OVERFLOW: hidden;
+	width:100%;
+	border:none;
+	height:auto;
+	color:#006;
+    BACKGROUND-COLOR:White;
+} 
+.repor{
+	font: 80%/1.0 Verdana, Arial, Helvetica, sans-serif;
+	color: #000;
+	padding-top:1px;
+	padding-bottom:1px;
+	 border-style:hidden; 
+	}	
+	
+.Estilo1  {font-family:Arial;   font-size:12px;  color:Gray;    font-weight:600}
+.Estilo2  {font-family:Arial;   font-size:18px;  color:#006633; font-weight:800;  padding: 0.5em 0.5em;}	
+.Estilo3  {font-family:Arial;   font-size:15px;  color:#ffffff; font-weight:300; background-color:#FF5300; padding: 0.4em 0.6em;}
+.Estilo4  {font-family:Arial;   font-size:15px;  color:#ffffff; font-weight:300; background-color:#294052; padding: 0.4em 0.6em;}	
+.Estilo5  {font-family:Arial;   font-size:10px;  color:#000000; font-weight:300; padding: 0.2em 0.2em;}
+.Estilo6  {font-family:Arial;   font-size:10px;  color:red; font-weight:300; padding: 0.2em 0.2em;}
+.Estilo55 {font-family:Arial;   font-size:12px;  color:#000000; font-weight:300; padding: 0.0em 0.0em;background-color:#A3B87A; border-style:hidden;  }
+.Estilo7  {font-family:Tahoma;  font-size:12px;  color:#000000; font-weight:300; background-color:#294052; }	
+.Estilo8  {font-family:Tahoma;  font-size:12px;  color:#ffffff; font-weight:300; background-color:#294052; }	
+.Estilo9  {font-family:Tahoma;  font-size:11px;  color:#294052; font-weight:700; }	
+.Estilo10 {font-family:Tahoma;  font-size:11px;  color:#ffffff; font-weight:300; background-color:#294052; }	
+.Estilo11  {font-family:Tahoma;  font-size:13px;  color:#294052; font-weight:700; }	
+/* coral  */
+.Estilo12 {font-family:Arial;   font-size:12px;  color:#000000; font-weight:300; padding: 0.0em 0.0em;background-color:#FFC9AE; border-style:hidden;  border:0px;}
+/* verde claro */
+.Estilo13 {font-family:Arial;   font-size:11px;  color:#000000; font-weight:300; padding: 0.0em 0.0em;background-color:#dbe3cd; border-style:hidden; border:0px; }
+/* gainsboro */
+.Estilo14 {font-family:Arial;   font-size:11px;  color:#000000; font-weight:300; padding: 0.0em 0.0em;background-color:#c4c4c4; border-style:hidden; border:0px; }
+
+
+.Titulito 	
+{font-family:Arial;   font-size:15px;  color:#ffffff; font-weight:300; background-color:#294052; padding: 0.4em 0.6em; padding:5px 5px 5px 5px; border-bottom:1px double #000;
+}
+

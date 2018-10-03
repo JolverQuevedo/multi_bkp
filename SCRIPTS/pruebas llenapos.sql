@@ -1,0 +1,6 @@
+exec SALDO_PO_COLOR_TOTAL '540291'  , '20548229520' , '01' ,'00' ,'00'
+
+exec saldoS_po_color '540291' ,'ANTRACITA19', '20548229520', '01', '00', '00' 
+
+
+SELECT * FROM po_MOVI
